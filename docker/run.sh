@@ -4,7 +4,7 @@
 SHARED_DIR=`pwd`
 
 # name of image
-IMAGE_NAME="yocto:latest"
+IMAGE_NAME="buildroot:latest"
 
 # map shared folder to container
 VOLUME_OPT="-v /${SHARED_DIR}:/home/user"
