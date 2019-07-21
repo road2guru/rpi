@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t yocto:latest -f $1 .
+docker build -t buildroot:latest -f $1 .
 
